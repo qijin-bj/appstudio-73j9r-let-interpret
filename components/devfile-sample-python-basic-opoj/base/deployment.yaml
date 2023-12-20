@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-opoj
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/qijing/push-pyxis-ccmk-tenant/appstudio/devfile-sample-python-basic-opoj@sha256:fb0efbca7a3d9e27b6a2d34e53472e4e49d28c4ceab054faec01ed87ef02006f
         name: my-python
         ports:
         - containerPort: 8081
